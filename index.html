@@ -1,25 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<meta charset='UTF-8' />
-<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5'
-  name='viewport' />
-<meta content='IE=edge' http-equiv='X-UA-Compatible' />
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-<script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-
-<head>
-  <title>Buat rina</title>
-  <link rel="icon" type="image/x-icon" href="gbr/iconlove.png">
-  <meta name="description" content="Love You My Darling">
-  <!-- 
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5" name="viewport">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+        <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+        <title>Buat rina</title>
+        <link rel="icon" type="image/x-icon" href="gbr/iconlove.png">
+        <meta name="description" content="Love You My Darling"> <!-- 
   Made with love by Rayys!
   
      Blog: https://www.himang.my.id/
@@ -27,83 +22,50 @@
      TikTok: @Himang_dg
   Thanks to all <3
 -->
-</head>
-
-<body>
-
-  <!-- Ganti Audio di sini -->
-  <audio src="song.mp3" id="linkmp3" class="sembunyi"></audio>
-
-  <div id="bodyblur">
-    <!-- Wallpaper --><img src="gbr/rina.jpg" id="wallpaper" />
-    <div id="beneranblur"></div>
-  </div>
-
-  <div id='Content'>
-
-    <div id="kadoIn">
-      <!-- Tombol Surat --><img src="gbr/kado.png" />
-    </div>
-    <p id="ket">Klik Kadonya!</p>
-
-    <div class="kumpulanstiker">
-      <!-- Stiker untuk Konten -->
-      <img src="gbr/bunga.gif" id="fotostiker" />
-      <img src="gbr/pusn.gif" id="fotostiker1" />
-      <img src="gbr/pandacoklat.gif" id="fotostiker2" />
-      <img src="gbr/cilukba.gif" id="fotostiker3" />
-      <img src="gbr/pandakuning.gif" id="fotostiker4" />
-      <img src="gbr/emawh.gif" id="fotostiker5" />
-
-      <img src="gbr/pandacoklat.gif" id="fotostiker6" />
-    </div>
-
-    <p id="halo" class="halo"></p>
-
-    <div>
-      <blockquote id='bq' data-text='𝘍𝘳𝘰𝘮 𝘏𝘪𝘮𝘢𝘯𝘨'>
-        <p id="kalimat">🎂Happy Birthday Ayangku🎂</p>
-
-       <p id="pesan1">Klik 4 icon Kue 🎂 di Bawah ya 😊</p>
-       <div id="kolombaru">
-         <li id="lv1">🎂</li>
-         <li id="lv2">🎂</li>
-         <li id="lv3">🎂</li>
-         <li id="lv4">🎂</li>
-       </div>
-
-        <p id="pesan2">Tunggu...</p>
-        <!-- Pesan -->
-        <p id="pesan3">Ciee.. Ada yang Ulang Tahun nih.. ❤️</p>
-        <p id="pesan4">Buat Kesayanganku, Si </p>
-        <p id="pesan5" class="gaya2">Happy Birthday ya cantikku 😊😊 </p>
-        <p id="pesan6" class="gaya2">Jangan pernah bosen sama aku ya, Jangan ngambekan mulu, nanti kalo keseringan ngambek jadi mbek 🐑 loh 😂❤️mbek mbek... </p>
-        <p id="pesan7" class="gaya2">Panjang umur Cantikku! 😘</p>
-
-        <p id="pesan8" class="gaya2">Canda wkwwk 😛</p>
-        <p id="pesan9" class="gaya2">Oh iya, semoga di hari ini kamu dapat menjadi pribadi yang lebih baik yaa.. <br>Dilancarkan segala urusannya <br> Diberikan kesehatan jasmani dan rohani <br>Yang terbaik pokoknya 😘 ❤️</p>
-        <p id="pesan10" class="gaya2">💗 Lopeyu Cantikku 💗\n Muuuuuuuuuuuuuuuuuuuuuuuuuuuuaaaaaaaaaaaaaaaccccchhhh 😘😘😘</p>
-
-        <!-- Tombol Lanjut -->
-        <p id="opsL">Klik untuk Lanjut</p>
-      </blockquote>
-    </div>
-
-    <!-- Tombol Kirim Pesan -->
-    <div id="Tombol"><a id="By">&#128140; Lanjut</a></div>
-
-    <!-- Pesan Tambahan -->
-    <p id="katatambahan" class="sembunyi">Gajadi deh soalnya kamu bau, Jarang mandi weee 😜</p>
-
-    <!-- Pesan Ditolak -->
-    <div id="pesanditolak">
-      <img id="stikerditolak" src="gbr/weee.gif" />
-      <p id="kataditolak">Yaudah kalo gamau mAh 😜❤️</p>
-    </div>
-
-  </div>
-
-  <script>
+    </head>
+    <body><!-- Ganti Audio di sini -->
+        <audio src="song.mp3" id="linkmp3" class="sembunyi"></audio>
+        <div id="bodyblur"><!-- Wallpaper --><img src="gbr/rina.jpg" id="wallpaper">
+            <div id="beneranblur"></div>
+        </div>
+        <div id="Content">
+            <div id="kadoIn"><!-- Tombol Surat --><img src="gbr/kado.png">
+            </div>
+            <p id="ket">Klik Kadonya!</p>
+            <div class="kumpulanstiker"><!-- Stiker untuk Konten --> <img src="gbr/bunga.gif" id="fotostiker"> <img src="gbr/pusn.gif" id="fotostiker1"> <img src="gbr/pandacoklat.gif" id="fotostiker2"> <img src="gbr/cilukba.gif" id="fotostiker3"> <img src="gbr/pandakuning.gif" id="fotostiker4"> <img src="gbr/emawh.gif" id="fotostiker5"> <img src="gbr/pandacoklat.gif" id="fotostiker6">
+            </div>
+            <p id="halo" class="halo"></p>
+            <div>
+                <blockquote id="bq" data-text="From AnGgIt😎">
+                    <p id="kalimat">🎂Happy Birthday Ayangku🎂</p>
+                    <p id="pesan1">Klik 4 icon Kue 🎂 di Bawah ya 😊</p>
+                    <div id="kolombaru">
+                        <li id="lv1">🎂</li>
+                        <li id="lv2">🎂</li>
+                        <li id="lv3">🎂</li>
+                        <li id="lv4">🎂</li>
+                    </div>
+                    <p id="pesan2">Tunggu Bentar Ya...</p> <!-- Pesan -->
+                    <p id="pesan3">Ciee.. Ada Yang Ulang Tahun Nih.. ❤️</p>
+                    <p id="pesan4">Buat Kesayanganku, Si</p>
+                    <p id="pesan5" class="gaya2">Happy Birthday Ya Cantikku 😊😊</p>
+                    <p id="pesan6" class="gaya2">Jangan Pernah Bosen Sama Aku Ya, Jangan Ngambekan Mulu, Nanti Kalo Keseringan Ngambek Jadi Mbek 🐑 Loh 😂❤️Mbek Mbek...</p>
+                    <p id="pesan7" class="gaya2">Panjang umur Cantikku! 😘</p>
+                    <p id="pesan8" class="gaya2">Canda wkwwk 😛</p>
+                    <p id="pesan9" class="gaya2">Oh iya, semoga di hari ini kamu dapat menjadi pribadi yang lebih baik yaa.. <br>Dilancarkan segala urusannya <br> Diberikan kesehatan jasmani dan rohani <br>Yang terbaik pokoknya 😘 ❤️</p>
+                    <p id="pesan10" class="gaya2">💗 Lopeyu Cantikku 💗\n Muuuuuuuuuuuuuuuuuuuuuuuuuuuuaaaaaaaaaaaaaaaccccchhhh 😘😘😘</p> <!-- Tombol Lanjut -->
+                    <p id="opsL">Klik Untuk Lanjut</p>
+                </blockquote>
+            </div> <!-- Tombol Kirim Pesan -->
+            <div id="Tombol">
+                <a id="By">💌 Lanjut</a>
+            </div> <!-- Pesan Tambahan -->
+            <p id="katatambahan" class="sembunyi">Gajadi deh soalnya kamu bau, Jarang mandi weee 😜</p> <!-- Pesan Ditolak -->
+            <div id="pesanditolak"><img id="stikerditolak" src="gbr/weee.gif">
+                <p id="kataditolak">Yaudah kalo gamau mAh 😜❤️</p>
+            </div>
+        </div>
+        <script>
     const body = document.querySelector("body");
     const swalst = Swal.mixin({
       timer: 2300,
@@ -159,7 +121,7 @@
       });
       if (nama && nama.length < 11) {
         window.nama = nama;
-        vketikhalo = "✨ " + "Hai, " + nama + " ✨";
+        vketikhalo = "✨ " + "Halo, " + nama + " ✨";
         mulainama();
       } else {
         await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');
@@ -168,7 +130,7 @@
     }
 
     //Variable Pertanyaan Akhir
-    var tanya = 'Mau Kado Gak Nih? 😶🎁';
+    var tanya = 'Mau Kado Gak Nih? 😊🎁';
     var opstanya = 'Ayo jawab 😆';
     var tompositif = 'Mau';
     var tomnegatif = 'Engga';
@@ -179,8 +141,6 @@
       window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;
     }
   </script>
-  <script src="script.js"></script>
-  <!-- Sampai Sini -->
-</body>
-
+        <script src="script.js"></script> <!-- Sampai Sini -->
+    </body>
 </html>
